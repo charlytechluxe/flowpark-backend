@@ -7,10 +7,12 @@ class WeatherEngine:
     Utilise l'API Open-Meteo (gratuite et sans clé pour démonstration).
     """
     
-    # Coordonnées approximatives
+    # Coordonnées approximatives des villes supportées
     CITIES = {
         "laval": {"lat": 48.07, "lon": -0.77},
-        "rennes": {"lat": 48.11, "lon": -1.67}
+        "rennes": {"lat": 48.11, "lon": -1.67},
+        "nantes": {"lat": 47.21, "lon": -1.55},
+        "angers": {"lat": 47.47, "lon": -0.55}
     }
 
     @staticmethod
